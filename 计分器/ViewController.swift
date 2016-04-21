@@ -10,6 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var jia: UILabel!
+    var operang: String = ""
+    @IBAction func jiayy(sender: UIButton) {
+        let value = sender.currentAttributedTitle
+        var result = 0.0
+        switch operang {
+            case "+1":
+                result = Double(operang)!
+        default:
+                result = 0
+            
+        }
+        jia.text = "\(result)"
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Ryn here")

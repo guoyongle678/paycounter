@@ -14,6 +14,9 @@
 		A56236401CC508D40046C491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A562363E1CC508D40046C491 /* LaunchScreen.storyboard */; };
 		A562364B1CC508D50046C491 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A562364A1CC508D50046C491 /* ___Tests.swift */; };
 		A56236561CC508D50046C491 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56236551CC508D50046C491 /* ___UITests.swift */; };
+		A56A71D41CC87CBC00A392C4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56A71D31CC87CBC00A392C4 /* 2.jpg */; };
+		A56A71D61CC87CC100A392C4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56A71D51CC87CC100A392C4 /* 3.jpg */; };
+		A56A71D81CC87CC500A392C4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A56A71D71CC87CC500A392C4 /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		A56236511CC508D50046C491 /* 计分器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "计分器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56236551CC508D50046C491 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
 		A56236571CC508D50046C491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A56A71D31CC87CBC00A392C4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../../2.jpg; sourceTree = "<group>"; };
+		A56A71D51CC87CC100A392C4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 3.jpg; path = ../../../3.jpg; sourceTree = "<group>"; };
+		A56A71D71CC87CC500A392C4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 4.jpg; path = ../../../4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		A56236341CC508D40046C491 /* 计分器 */ = {
 			isa = PBXGroup;
 			children = (
+				A56A71D71CC87CC500A392C4 /* 4.jpg */,
+				A56A71D51CC87CC100A392C4 /* 3.jpg */,
+				A56A71D31CC87CBC00A392C4 /* 2.jpg */,
 				A56236351CC508D40046C491 /* AppDelegate.swift */,
 				A56236371CC508D40046C491 /* ViewController.swift */,
 				A56236391CC508D40046C491 /* Main.storyboard */,
@@ -229,8 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A56A71D81CC87CC500A392C4 /* 4.jpg in Resources */,
+				A56A71D61CC87CC100A392C4 /* 3.jpg in Resources */,
 				A56236401CC508D40046C491 /* LaunchScreen.storyboard in Resources */,
 				A562363D1CC508D40046C491 /* Assets.xcassets in Resources */,
+				A56A71D41CC87CBC00A392C4 /* 2.jpg in Resources */,
 				A562363B1CC508D40046C491 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				A562365C1CC508D50046C491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A562365D1CC508D50046C491 /* Build configuration list for PBXNativeTarget "计分器Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				A562365F1CC508D50046C491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A56236601CC508D50046C491 /* Build configuration list for PBXNativeTarget "计分器UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				A56236621CC508D50046C491 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
