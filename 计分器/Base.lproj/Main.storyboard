@@ -27,12 +27,6 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.98489890999999996" green="1" blue="0.41334653500000001" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CQQ-8Z-Lvm">
-                                <rect key="frame" x="115" y="100" width="70" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96229681320000005" green="1" blue="0.95879273200000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="记时开始"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="队伍甲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
                                 <rect key="frame" x="26" y="150" width="58" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -111,6 +105,13 @@
                                 <color key="backgroundColor" red="0.96229681315872828" green="1" blue="0.95879273199494464" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="比赛结束 "/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="CQQ-8Z-Lvm">
+                                <rect key="frame" x="115" y="105" width="70" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96229681320000005" green="1" blue="0.95879273200000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="00:00"/>
+                            </button>
                         </subviews>
                     </view>
                     <connections>
@@ -119,7 +120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-385" y="129"/>
+            <point key="canvasLocation" x="-358" y="129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MXM-Y9-6Eg">
@@ -150,7 +151,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NYc-P8-BdZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-750" y="124"/>
+            <point key="canvasLocation" x="-742" y="129"/>
         </scene>
     </scenes>
     <resources>
