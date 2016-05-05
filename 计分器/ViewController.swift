@@ -9,24 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var jia: UILabel!
-    var operang: String = ""
-    @IBAction func jiayy(sender: UIButton) {
-        let value = sender.currentAttributedTitle
-        var result = 0.0
-        switch operang {
+    @IBOutlet var jiaduidefen: UILabel!
+    var operand1: String = ""
+        @IBAction func jiayy(sender: UIButton) {
+        
+        switch operand1{
             case "+1":
-                result = Double(operang)!
-        default:
-                result = 0
+            result = Double(operand1)! + Double(operand1)!
             
         }
-        jia.text = "\(result)"
+        
     }
     override func viewDidLoad() {
-        super.viewDidLoad()
-        print("Ryn here")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
