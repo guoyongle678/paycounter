@@ -11,14 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet var jiaduidefen: UILabel!
     var operand1: String = ""
+    var x:Int = 0;
         @IBAction func jiayy(sender: UIButton) {
-        
-        switch operand1{
-            case "+1":
-            result = Double(operand1)! + Double(operand1)!
+            x++
+            jiaduidefen.text = "\(x)";
             
-        }
-        
+            
     }
     override func viewDidLoad() {
         // Do any additional setup after loading the view, typically from a nib.
