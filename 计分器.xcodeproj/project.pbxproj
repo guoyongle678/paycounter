@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5287E731CE0AFF90053EDF5 /* SQLiteDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5287E701CE0AFF90053EDF5 /* SQLiteDB.swift */; };
+		A5287E741CE0AFF90053EDF5 /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5287E711CE0AFF90053EDF5 /* SQLTable.swift */; };
+		A5287E751CE0AFF90053EDF5 /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5287E721CE0AFF90053EDF5 /* String-Extras.swift */; };
+		A5287E771CE0B01B0053EDF5 /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = A5287E761CE0B01B0053EDF5 /* data.db */; };
+		A5287E791CE0B0650053EDF5 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A5287E781CE0B0650053EDF5 /* libsqlite3.0.tbd */; };
 		A56236361CC508D40046C491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56236351CC508D40046C491 /* AppDelegate.swift */; };
 		A56236381CC508D40046C491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56236371CC508D40046C491 /* ViewController.swift */; };
 		A562363B1CC508D40046C491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A56236391CC508D40046C491 /* Main.storyboard */; };
@@ -37,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A5287E701CE0AFF90053EDF5 /* SQLiteDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLiteDB.swift; path = ../../hangge_645/SQLiteDB/SQLiteDB.swift; sourceTree = "<group>"; };
+		A5287E711CE0AFF90053EDF5 /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SQLTable.swift; path = ../../hangge_645/SQLiteDB/SQLTable.swift; sourceTree = "<group>"; };
+		A5287E721CE0AFF90053EDF5 /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String-Extras.swift"; path = "../../hangge_645/SQLiteDB/String-Extras.swift"; sourceTree = "<group>"; };
+		A5287E761CE0B01B0053EDF5 /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.db; path = ../../hangge_645/data.db; sourceTree = "<group>"; };
+		A5287E781CE0B0650053EDF5 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A5287E7A1CE0B0A30053EDF5 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
 		A56236321CC508D40046C491 /* 计分器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "计分器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56236351CC508D40046C491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A56236371CC508D40046C491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5287E791CE0B0650053EDF5 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +92,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5287E6F1CE0AFA80053EDF5 /* shujiku */ = {
+			isa = PBXGroup;
+			children = (
+				A5287E701CE0AFF90053EDF5 /* SQLiteDB.swift */,
+				A5287E711CE0AFF90053EDF5 /* SQLTable.swift */,
+				A5287E721CE0AFF90053EDF5 /* String-Extras.swift */,
+			);
+			name = shujiku;
+			sourceTree = "<group>";
+		};
 		A56236291CC508D40046C491 = {
 			isa = PBXGroup;
 			children = (
+				A5287E781CE0B0650053EDF5 /* libsqlite3.0.tbd */,
+				A5287E761CE0B01B0053EDF5 /* data.db */,
+				A5287E6F1CE0AFA80053EDF5 /* shujiku */,
 				A56236341CC508D40046C491 /* 计分器 */,
 				A56236491CC508D50046C491 /* 计分器Tests */,
 				A56236541CC508D50046C491 /* 计分器UITests */,
@@ -103,6 +128,7 @@
 		A56236341CC508D40046C491 /* 计分器 */ = {
 			isa = PBXGroup;
 			children = (
+				A5287E7A1CE0B0A30053EDF5 /* Header.h */,
 				A56A71D71CC87CC500A392C4 /* 4.jpg */,
 				A56A71D51CC87CC100A392C4 /* 3.jpg */,
 				A56A71D31CC87CBC00A392C4 /* 2.jpg */,
@@ -242,6 +268,7 @@
 				A56A71D61CC87CC100A392C4 /* 3.jpg in Resources */,
 				A56236401CC508D40046C491 /* LaunchScreen.storyboard in Resources */,
 				A562363D1CC508D40046C491 /* Assets.xcassets in Resources */,
+				A5287E771CE0B01B0053EDF5 /* data.db in Resources */,
 				A56A71D41CC87CBC00A392C4 /* 2.jpg in Resources */,
 				A562363B1CC508D40046C491 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5287E751CE0AFF90053EDF5 /* String-Extras.swift in Sources */,
+				A5287E731CE0AFF90053EDF5 /* SQLiteDB.swift in Sources */,
+				A5287E741CE0AFF90053EDF5 /* SQLTable.swift in Sources */,
 				A56236381CC508D40046C491 /* ViewController.swift in Sources */,
 				A56236361CC508D40046C491 /* AppDelegate.swift in Sources */,
 			);
@@ -413,6 +443,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lele/Desktop/计分器 /计分器/Header.h";
 			};
 			name = Debug;
 		};
@@ -424,6 +455,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "imnu.edu.cn.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/lele/Desktop/计分器 /计分器/Header.h";
 			};
 			name = Release;
 		};
