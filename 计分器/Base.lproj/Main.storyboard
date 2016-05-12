@@ -124,7 +124,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oqR-4c-YrK">
                                 <rect key="frame" x="132" y="469" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96229681315872828" green="1" blue="0.95879273199494464" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="比赛结束 "/>
                                 <connections>
                                     <segue destination="iZ5-wJ-7Lb" kind="modal" id="jpo-k0-rb4"/>
@@ -158,10 +157,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="UlZ-pX-ddu">
-                                <rect key="frame" x="0.0" y="20" width="320" height="543"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6.jpg" id="TnV-Mf-cbM">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="289"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9sy-Xy-99X">
+                                <rect key="frame" x="14" y="27" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.1950403248" blue="0.1869580918" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="  &lt;返回 "/>
+                                <connections>
+                                    <segue destination="Q86-Fu-TGx" kind="modal" id="YOY-xH-AtS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7.jpg" id="nmg-QB-kCK">
+                                <rect key="frame" x="0.0" y="289" width="320" height="279"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" id="UlZ-pX-ddu">
+                                <rect key="frame" x="0.0" y="65" width="320" height="503"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <mutableString key="text">比赛方法 
 一队五人，其中一人为队长，候补球员最多七人，但可依主办单位而增加人数。比赛分前、后半场，每半场各 20 分钟，中场休息 10 分钟。比赛结束两队积分相同时，则举行延长赛 5 分钟，若 5 分钟后比数仍相同，则再次进行 5 分钟延长赛，直至比出胜负为止。 
 得分种类 
@@ -175,7 +192,8 @@
 每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 
 6
 ​违例 
-大致可分为（1）普通违例：如带球走步、两次运球、脚踢球或以拳击球。（2）跳球违例、（3）跳球时的违例：除了跳球球员以外的入木可在跳球者触到球之前进入中央跳球区。 </mutableString>
+大致可分为（1）普通违例：如带球走步、两次运球、脚踢球或以拳击球。（2）跳球违例、（3）跳球时的违例：除了跳球球员以外的入木可在跳球者触到球之前进入中央跳球区。            </mutableString>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -185,7 +203,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTt-Ws-uS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="212" y="129"/>
+            <point key="canvasLocation" x="261" y="129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kgg-Ra-TqZ">
@@ -195,12 +213,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="恭喜x队获得胜利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rdj-BG-s5i">
-                                <rect key="frame" x="58" y="84" width="205" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="RKX-vH-7QG">
+                                <rect key="frame" x="241" y="446" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
+                                <state key="normal" title="返回 "/>
+                                <connections>
+                                    <segue destination="Gcz-kj-no6" kind="modal" id="gIT-5u-hRP"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.jpg" id="cl3-8f-fy1">
+                                <rect key="frame" x="0.0" y="108" width="320" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   恭喜x队获得胜利" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rdj-BG-s5i">
+                                <rect key="frame" x="80" y="61" width="161" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -245,5 +277,11 @@
     <resources>
         <image name="2.jpg" width="412" height="412"/>
         <image name="4.jpg" width="511" height="681"/>
+        <image name="5.jpg" width="291" height="220"/>
+        <image name="6.jpg" width="336" height="220"/>
+        <image name="7.jpg" width="293" height="220"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="YOY-xH-AtS"/>
+    </inferredMetricsTieBreakers>
 </document>
