@@ -13,27 +13,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpg" id="ObJ-JT-bLK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏀篮球记分系统🏀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ch-dg-2gK">
                                 <rect key="frame" x="84" y="31" width="152" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.98489890999999996" green="1" blue="0.41334653500000001" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="队伍甲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
                                 <rect key="frame" x="44" y="132" width="58" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="队伍乙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hmf-E7-Lbg">
@@ -41,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.16955532662659145" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VMe-sK-JFM">
@@ -110,7 +106,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙队得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hIw-jN-qbf">
@@ -118,7 +114,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.0076417130080141948" green="1" blue="0.1837215162775846" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oqR-4c-YrK">
@@ -137,6 +133,44 @@
                                     <segue destination="duo-yi-4PF" kind="modal" id="qPt-2n-LqY"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VSP-BW-3lX">
+                                <rect key="frame" x="143" y="518" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="bc:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="Eqi-aB-uGL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j9W-H6-Hsj">
+                                <rect key="frame" x="32" y="469" width="60" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="重新计分"/>
+                                <connections>
+                                    <action selector="cxjf:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="GiH-SD-7qe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nke-Pw-FRy">
+                                <rect key="frame" x="44" y="226" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="＋1"/>
+                                <connections>
+                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="q8Q-1s-2L2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qdh-hR-eOx">
+                                <rect key="frame" x="44" y="226" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="＋1"/>
+                                <connections>
+                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="Oh2-v0-jcS"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpg" id="ObJ-JT-bLK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -179,7 +213,7 @@
                                 <rect key="frame" x="0.0" y="65" width="320" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">比赛方法 
+                                <string key="text">比赛方法 
 一队五人，其中一人为队长，候补球员最多七人，但可依主办单位而增加人数。比赛分前、后半场，每半场各 20 分钟，中场休息 10 分钟。比赛结束两队积分相同时，则举行延长赛 5 分钟，若 5 分钟后比数仍相同，则再次进行 5 分钟延长赛，直至比出胜负为止。 
 得分种类 
 球投进篮框经裁判认可后，便算得分。 3 分线内侧投入可得 2 分；叁 分线外侧投入可得 3 分，罚球投进得 1 分。 
@@ -192,7 +226,7 @@
 每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 
 6
 ​违例 
-大致可分为（1）普通违例：如带球走步、两次运球、脚踢球或以拳击球。（2）跳球违例、（3）跳球时的违例：除了跳球球员以外的入木可在跳球者触到球之前进入中央跳球区。            </mutableString>
+大致可分为（1）普通违例：如带球走步、两次运球、脚踢球或以拳击球。（2）跳球违例、（3）跳球时的违例：除了跳球球员以外的入木可在跳球者触到球之前进入中央跳球区。            </string>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -255,14 +289,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="lWS-dd-sun">
-                                <rect key="frame" x="154" y="462" width="111" height="59"/>
+                                <rect key="frame" x="184" y="478" width="111" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="48"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <size key="titleShadowOffset" width="4" height="3"/>
                                 <state key="normal" title="play"/>
                                 <connections>
-                                    <segue destination="Q86-Fu-TGx" kind="modal" id="Zuw-fX-513"/>
+                                    <segue destination="yoA-5x-CHV" kind="modal" id="fWa-BM-zQD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -273,6 +307,52 @@
             </objects>
             <point key="canvasLocation" x="-545" y="129"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="yoz-OQ-BGV">
+            <objects>
+                <viewController id="yoA-5x-CHV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qaK-Go-qUf">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F3O-1o-jaK">
+                                <rect key="frame" x="79" y="34" width="148" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULc-he-1XL">
+                                <rect key="frame" x="124" y="47" width="129" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="h3W-28-GYy">
+                                <rect key="frame" x="44" y="126" width="78" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WMi-dW-jgo">
+                                <rect key="frame" x="185" y="126" width="85" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MZT-XZ-sVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463" y="215"/>
+        </scene>
     </scenes>
     <resources>
         <image name="2.jpg" width="412" height="412"/>
@@ -281,7 +361,4 @@
         <image name="6.jpg" width="336" height="220"/>
         <image name="7.jpg" width="293" height="220"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="YOY-xH-AtS"/>
-    </inferredMetricsTieBreakers>
 </document>
