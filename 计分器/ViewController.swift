@@ -8,6 +8,12 @@
 
 import UIKit
 class ViewController: UIViewController {
+    //倒计时00：00
+    var time :NSTimer!
+    var _tame:Int = 900
+    var stop :NSTimer!
+    @IBOutlet var timel: UILabel!
+    //甲队得分
     @IBOutlet var jiaduidefen: UILabel!
     var x:Int = 0;
     @IBAction func jiayy(sender: UIButton) {
@@ -38,12 +44,31 @@ class ViewController: UIViewController {
         y=y+3
         yiduidefen.text = "\(y)";
     }
- 
+    //重新计分让甲乙队比分为0
     @IBAction func cxjf(sender: UIButton) {
         yiduidefen.text = "\(0)"
         jiaduidefen.text = "\(0)"
+        x=0
+        y=0
     }
-    
+    //开始计时按钮
+    @IBAction func star(sender: AnyObject) {
+        time = NSTimer.scheduledTimerWithTimeInterval(1, target:self,selector: Selector("tickDOWn"),userInfo: nil,repeats: true)
+    }
+    //暂停计时按钮
+    @IBAction func stop(sender: AnyObject) {
+        time.invalidate()
+    }
+    func tickDOWn()
+    {
+        _tame -= 1
+        let sec = _tame%60
+        let min = _tame/60
+        timel.text = String(min)+":"+String(sec)
+        if(_tame == 0){
+            time.invalidate()
+        }
+    }
     
     
     
