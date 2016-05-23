@@ -16,16 +16,23 @@ class ViewController: UIViewController {
     //甲队得分
     @IBOutlet var jiaduidefen: UILabel!
     var x:Int = 0;
+    var z:Int = 0;
     @IBAction func jiayy(sender: UIButton) {
         x++
+        z=1
+        saveUser(z)
         jiaduidefen.text = "\(x)";
     }
     @IBAction func jiajia2(sender: UIButton) {
         x=x+2
+        z=2
+        saveUser(z)
         jiaduidefen.text = "\(x)";
     }
     @IBAction func jiajia3(sender: UIButton) {
         x=x+3
+        z=3
+        saveUser(z)
         jiaduidefen.text = "\(x)";
     }
 
@@ -34,14 +41,20 @@ class ViewController: UIViewController {
     var y:Int = 0;
     @IBAction func yidui1(sender: UIButton) {
         y=y+1
+        z=1
+        saveQiudui(z)
         yiduidefen.text = "\(y)";
     }
     @IBAction func yidui2(sender: UIButton) {
         y=y+2
+        z=2
+        saveQiudui(z)
         yiduidefen.text = "\(y)";
     }
     @IBAction func yidui3(sender: UIButton) {
         y=y+3
+        z=3
+        saveQiudui(z)
         yiduidefen.text = "\(y)";
     }
     //重新计分让甲乙队比分为0
@@ -95,7 +108,7 @@ class ViewController: UIViewController {
     
     //点击保存
     @IBAction func bc(sender: AnyObject) {
-        saveUser()
+        //saveUser()
     }
     //从SQLite加载数据
     func initUser() {
@@ -108,21 +121,21 @@ class ViewController: UIViewController {
         }
     }
     //保存数据到SQLite
-    func saveQiudui() {
-        let uname = self.jiaduidefen.text!
-        let mobile = self.yiduidefen.text!
+    func saveQiudui(x:Int) {
+        // let uname = self.jiaduidefen.text!
+        // let mobile = self.yiduidefen.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
-        let sql = "insert into t_user(uname,mobile) values('\(uname)','\(mobile)')"
+        let sql = "insert into t_user(mobile) values('\(x)')"
         print("sql: \(sql)")
         //通过封装的方法执行sql
         let result = db.execute(sql)
         print(result)
     }
-    func saveUser() {
-        let uname = self.jiaduidefen.text!
-        let mobile = self.yiduidefen.text!
+    func saveUser(x:Int) {
+        //let uname = self.jiaduidefen.text!
+        //let mobile = self.yiduidefen.text!
         //插入数据库，这里用到了esc字符编码函数，其实是调用bridge.m实现的
-        let sql = "insert into t_user(uname,mobile) values('\(uname)','\(mobile)')"
+        let sql = "insert into t_user(uname) values('\(x)')"
         print("sql: \(sql)")
         //通过封装的方法执行sql
         let result = db.execute(sql)
@@ -133,5 +146,6 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
 
 
-}
+
+    }
 }
