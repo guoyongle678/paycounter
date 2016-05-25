@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     //倒计时00：00
     var time :NSTimer!
-    var _tame:Int = 900
+    var _tame:Int = 720
     var stop :NSTimer!
     @IBOutlet var timel: UILabel!
     //甲队得分

@@ -61,21 +61,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jQu-Hg-xQd">
-                                <rect key="frame" x="33" y="293" width="30" height="30"/>
+                                <rect key="frame" x="64" y="287" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="＋2"/>
                                 <connections>
                                     <action selector="jiajia2:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="pun-ad-rzL"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DOM-sG-kCn">
-                                <rect key="frame" x="33" y="360" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋3"/>
-                                <connections>
-                                    <action selector="jiajia3:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="lt0-LL-aYU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j6D-kh-dng">
@@ -203,6 +194,15 @@
                                 <color key="textColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DOM-sG-kCn">
+                                <rect key="frame" x="64" y="354" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="＋3"/>
+                                <connections>
+                                    <action selector="jiajia3:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="lt0-LL-aYU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -246,7 +246,7 @@
                                 <rect key="frame" x="0.0" y="65" width="320" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">比赛方法 
+                                <mutableString key="text">比赛方法 
 一队五人，其中一人为队长，候补球员最多七人，但可依主办单位而增加人数。比赛分前、后半场，每半场各 20 分钟，中场休息 10 分钟。比赛结束两队积分相同时，则举行延长赛 5 分钟，若 5 分钟后比数仍相同，则再次进行 5 分钟延长赛，直至比出胜负为止。 
 得分种类 
 球投进篮框经裁判认可后，便算得分。 3 分线内侧投入可得 2 分；叁 分线外侧投入可得 3 分，罚球投进得 1 分。 
@@ -256,10 +256,7 @@
 每次替换选手要在20秒内完成，替换次数则不限定。交换选手的时间选在有人犯规、争球、叫暂停等。裁判可暂时中止球赛的计时。 
 5
 .罚球 
-每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 
-6
-​违例 
-大致可分为（1）普通违例：如带球走步、两次运球、脚踢球或以拳击球。（2）跳球违例、（3）跳球时的违例：除了跳球球员以外的入木可在跳球者触到球之前进入中央跳球区。            </string>
+每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 </mutableString>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -340,10 +337,10 @@
             </objects>
             <point key="canvasLocation" x="-1003" y="70"/>
         </scene>
-        <!--View Controller-->
+        <!--Filexx-->
         <scene sceneID="yoz-OQ-BGV">
             <objects>
-                <viewController id="yoA-5x-CHV" sceneMemberID="viewController">
+                <viewController id="yoA-5x-CHV" customClass="Filexx" customModule="计分器" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qaK-Go-qUf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -488,6 +485,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="jia" destination="AuC-oQ-lFP" id="mVc-8s-P38"/>
+                        <outlet property="yi" destination="bgv-XA-z4q" id="g9h-po-cWd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZT-XZ-sVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

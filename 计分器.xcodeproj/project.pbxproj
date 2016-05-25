@@ -29,6 +29,7 @@
 		A58237511CF32851000BDB44 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A582374E1CF32851000BDB44 /* 10.jpg */; };
 		A58237521CF32851000BDB44 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A582374F1CF32851000BDB44 /* 11.jpg */; };
 		A58237531CF32851000BDB44 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A58237501CF32851000BDB44 /* 12.jpg */; };
+		A5A836201CF5879900831E9A /* Filexx.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5A8361F1CF5879900831E9A /* Filexx.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		A582374E1CF32851000BDB44 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 10.jpg; path = ../../../10.jpg; sourceTree = "<group>"; };
 		A582374F1CF32851000BDB44 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 11.jpg; path = ../../../11.jpg; sourceTree = "<group>"; };
 		A58237501CF32851000BDB44 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpg; path = ../../../12.jpg; sourceTree = "<group>"; };
+		A5A8361F1CF5879900831E9A /* Filexx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filexx.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				A562363C1CC508D40046C491 /* Assets.xcassets */,
 				A562363E1CC508D40046C491 /* LaunchScreen.storyboard */,
 				A56236411CC508D40046C491 /* Info.plist */,
+				A5A8361F1CF5879900831E9A /* Filexx.swift */,
 			);
 			path = "计分器";
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				A5287E751CE0AFF90053EDF5 /* String-Extras.swift in Sources */,
 				A5287E731CE0AFF90053EDF5 /* SQLiteDB.swift in Sources */,
 				A5287E741CE0AFF90053EDF5 /* SQLTable.swift in Sources */,
+				A5A836201CF5879900831E9A /* Filexx.swift in Sources */,
 				A56236381CC508D40046C491 /* ViewController.swift in Sources */,
 				A56236361CC508D40046C491 /* AppDelegate.swift in Sources */,
 			);
