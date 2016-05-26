@@ -8,12 +8,13 @@
         <!--View Controller-->
         <scene sceneID="dgx-iC-w5K">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MB2-yY-3LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Q86-Fu-TGx" customClass="ViewController" customModule="计分器" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gxz-sK-Mlv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4.jpg" id="ObJ-JT-bLK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" id="ObJ-JT-bLK">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -24,44 +25,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏀篮球记分系统🏀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ch-dg-2gK">
-                                <rect key="frame" x="73" y="37" width="152" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" red="0.98489890999999996" green="1" blue="0.41334653500000001" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="队伍乙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hmf-E7-Lbg">
-                                <rect key="frame" x="198" y="138" width="60" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="1" blue="0.16955532662659145" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VMe-sK-JFM">
-                                <rect key="frame" x="228" y="293" width="30" height="30"/>
+                                <rect key="frame" x="290" y="293" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.00029302517479999998" green="1" blue="0.2085731368" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋2"/>
+                                <state key="normal" title="+2"/>
                                 <connections>
                                     <action selector="yidui2:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="RaT-ax-Mjv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Gw-cp-gdi">
-                                <rect key="frame" x="33" y="232" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋1"/>
-                                <connections>
-                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="24E-Sl-4CS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jQu-Hg-xQd">
-                                <rect key="frame" x="64" y="287" width="30" height="30"/>
+                                <rect key="frame" x="0.0" y="293" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="＋2"/>
@@ -69,17 +43,8 @@
                                     <action selector="jiajia2:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="pun-ad-rzL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j6D-kh-dng">
-                                <rect key="frame" x="228" y="360" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.00029302517479999998" green="1" blue="0.2085731368" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋3"/>
-                                <connections>
-                                    <action selector="yidui3:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="V8S-eR-Tap"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="y7S-Ha-ZTW">
-                                <rect key="frame" x="228" y="232" width="30" height="30"/>
+                                <rect key="frame" x="290" y="232" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.00029302517479999998" green="1" blue="0.2085731368" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="＋1"/>
@@ -87,115 +52,94 @@
                                     <action selector="yidui1:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="duM-kF-om8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甲队得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jSw-FT-xkK">
-                                <rect key="frame" x="86" y="183" width="27" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hIw-jN-qbf">
+                                <rect key="frame" x="235" y="183" width="23" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙队得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hIw-jN-qbf">
-                                <rect key="frame" x="271" y="183" width="29" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0076417130080141948" green="1" blue="0.1837215162775846" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="oqR-4c-YrK">
-                                <rect key="frame" x="121" y="475" width="70" height="30"/>
+                                <rect key="frame" x="127" y="497" width="70" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="比赛结束 "/>
+                                <state key="normal" title="比赛结束 ">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <segue destination="iZ5-wJ-7Lb" kind="modal" id="jpo-k0-rb4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VSP-BW-3lX">
-                                <rect key="frame" x="234" y="475" width="60" height="30"/>
+                                <rect key="frame" x="234" y="497" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="比分保存"/>
+                                <state key="normal" title="比分保存">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="bc:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="Eqi-aB-uGL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j9W-H6-Hsj">
-                                <rect key="frame" x="21" y="475" width="60" height="30"/>
+                                <rect key="frame" x="27" y="497" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="重新计分"/>
+                                <state key="normal" title="重新计分">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="cxjf:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="GiH-SD-7qe"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nke-Pw-FRy">
-                                <rect key="frame" x="33" y="232" width="30" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
+                                <rect key="frame" x="29" y="138" width="58" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋1"/>
-                                <connections>
-                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="q8Q-1s-2L2"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qdh-hR-eOx">
-                                <rect key="frame" x="33" y="232" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="＋1"/>
-                                <connections>
-                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="Oh2-v0-jcS"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="队伍甲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
-                                <rect key="frame" x="36" y="138" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="VR5-w1-wnG">
-                                <rect key="frame" x="121" y="155" width="60" height="30"/>
+                                <rect key="frame" x="130" y="112" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="开始计时"/>
+                                <state key="normal" title="开始计时">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="star:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="eC1-c2-iqK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="caE-ho-eeK">
-                                <rect key="frame" x="121" y="211" width="60" height="30"/>
+                                <rect key="frame" x="130" y="138" width="60" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="暂停计时"/>
+                                <state key="normal" title="暂停计时">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="stop:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="LZg-4I-SZE"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甲队得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4AV-Fx-6Fl">
-                                <rect key="frame" x="0.0" y="183" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4AV-Fx-6Fl">
+                                <rect key="frame" x="29" y="183" width="51" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.21723989783059028" blue="0.20831648150337867" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙队得分：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EHp-iL-7dI">
-                                <rect key="frame" x="173" y="183" width="85" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":分得" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EHp-iL-7dI">
+                                <rect key="frame" x="255" y="183" width="39" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.2172398978" blue="0.20831648150000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="UH6-Xe-HLi">
-                                <rect key="frame" x="126" y="83" width="60" height="44"/>
+                                <rect key="frame" x="45" y="42" width="82" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.43529412150000002" blue="0.81176471709999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DOM-sG-kCn">
-                                <rect key="frame" x="64" y="354" width="30" height="30"/>
+                                <rect key="frame" x="0.0" y="352" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="＋3"/>
@@ -203,16 +147,61 @@
                                     <action selector="jiajia3:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="lt0-LL-aYU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Qdh-hR-eOx">
+                                <rect key="frame" x="0.0" y="232" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="＋1"/>
+                                <connections>
+                                    <action selector="jiayy:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="Oh2-v0-jcS"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jSw-FT-xkK">
+                                <rect key="frame" x="79" y="183" width="25" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="j6D-kh-dng">
+                                <rect key="frame" x="290" y="365" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.00029302517479999998" green="1" blue="0.2085731368" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="+3"/>
+                                <connections>
+                                    <action selector="yidui3:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="V8S-eR-Tap"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lFk-No-lL2">
+                                <rect key="frame" x="203" y="48" width="80" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GaX-pD-Rvn">
+                                <rect key="frame" x="213" y="93" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="倒计时"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hmf-E7-Lbg">
+                                <rect key="frame" x="244" y="147" width="60" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="jia" destination="83H-d9-a08" id="RZS-rl-ISP"/>
                         <outlet property="jiaduidefen" destination="jSw-FT-xkK" id="dHh-Iw-28z"/>
                         <outlet property="timel" destination="UH6-Xe-HLi" id="e13-RL-xw3"/>
+                        <outlet property="yi" destination="Hmf-E7-Lbg" id="uqb-ch-ASp"/>
                         <outlet property="yiduidefen" destination="hIw-jN-qbf" id="4kA-cP-Xbj"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MB2-yY-3LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-230" y="70"/>
         </scene>
@@ -231,7 +220,6 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="9sy-Xy-99X">
                                 <rect key="frame" x="14" y="27" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.1950403248" blue="0.1869580918" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="  &lt;返回 "/>
                                 <connections>
@@ -246,7 +234,7 @@
                                 <rect key="frame" x="0.0" y="65" width="320" height="503"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">比赛方法 
+                                <string key="text">比赛方法 
 一队五人，其中一人为队长，候补球员最多七人，但可依主办单位而增加人数。比赛分前、后半场，每半场各 20 分钟，中场休息 10 分钟。比赛结束两队积分相同时，则举行延长赛 5 分钟，若 5 分钟后比数仍相同，则再次进行 5 分钟延长赛，直至比出胜负为止。 
 得分种类 
 球投进篮框经裁判认可后，便算得分。 3 分线内侧投入可得 2 分；叁 分线外侧投入可得 3 分，罚球投进得 1 分。 
@@ -256,7 +244,7 @@
 每次替换选手要在20秒内完成，替换次数则不限定。交换选手的时间选在有人犯规、争球、叫暂停等。裁判可暂时中止球赛的计时。 
 5
 .罚球 
-每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 </mutableString>
+每名球员各有 4 次被允许犯规的机会，第五次即犯满退场。且不能在同一场比赛中再度上场。罚球是在谁都不能阻挡、防守的情况下投篮，是做为对犯规队伍的处罚，给予另一队的机会。罚球要站在罚球线后，从裁判手中接过球后 5 秒内要投篮。在投篮后，球触到篮框前均不能踩越罚球线。 </string>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -294,8 +282,8 @@
                                 <color key="textColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5.jpg" id="cl3-8f-fy1">
-                                <rect key="frame" x="0.0" y="108" width="320" height="301"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8.jpg" id="cl3-8f-fy1">
+                                <rect key="frame" x="-17" y="108" width="349" height="301"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -329,6 +317,15 @@
                                     <segue destination="yoA-5x-CHV" kind="modal" id="fWa-BM-zQD"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🏀篮球记分系统🏀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5ch-dg-2gK">
+                                <rect key="frame" x="86" y="67" width="149" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.98489890999999996" green="1" blue="0.41334653500000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -345,12 +342,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="12.jpg" id="536-dn-hXa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="14.jpg" id="536-dn-hXa">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hnd-uW-eAw">
-                                <rect key="frame" x="179" y="91" width="42" height="24"/>
+                                <rect key="frame" x="188" y="94" width="27" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -363,14 +360,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULc-he-1XL">
-                                <rect key="frame" x="159" y="20" width="71" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.43682287924740304" blue="0.6043421503099049" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="AuC-oQ-lFP">
                                 <rect key="frame" x="75" y="91" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -379,10 +368,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="参赛双方：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="NBn-ui-NOJ">
-                                <rect key="frame" x="0.0" y="62" width="75" height="21"/>
+                                <rect key="frame" x="0.0" y="62" width="105" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="03S-6x-uzl">
@@ -442,10 +432,10 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="参赛队员：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HF4-WN-jnx">
-                                <rect key="frame" x="6" y="153" width="75" height="21"/>
+                                <rect key="frame" x="0.0" y="155" width="114" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" id="wDV-E6-WvR">
@@ -482,6 +472,21 @@
                                     <segue destination="duo-yi-4PF" kind="modal" id="icv-iF-Vnz"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULc-he-1XL">
+                                <rect key="frame" x="165" y="41" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A4e-EA-d1f">
+                                <rect key="frame" x="159" y="518" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="bc:" destination="yoA-5x-CHV" eventType="touchUpInside" id="h35-AK-UZe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -492,16 +497,16 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZT-XZ-sVV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-593" y="70"/>
+            <point key="canvasLocation" x="-584" y="70"/>
         </scene>
     </scenes>
     <resources>
-        <image name="12.jpg" width="1024" height="851"/>
+        <image name="14.jpg" width="329" height="220"/>
         <image name="2.jpg" width="412" height="412"/>
-        <image name="4.jpg" width="511" height="681"/>
-        <image name="5.jpg" width="291" height="220"/>
+        <image name="3.jpg" width="341" height="620"/>
         <image name="6.jpg" width="336" height="220"/>
         <image name="7.jpg" width="293" height="220"/>
+        <image name="8.jpg" width="391" height="220"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="J6V-Rl-Ytn"/>

@@ -8,11 +8,18 @@
 
 import UIKit
 class ViewController: UIViewController {
+    //参赛队伍
+    
+    @IBOutlet var jia: UILabel!
+    
+    @IBOutlet var yi: UILabel!
     //倒计时00：00
     var time :NSTimer!
     var _tame:Int = 720
     var stop :NSTimer!
     @IBOutlet var timel: UILabel!
+    
+    
     //甲队得分
     @IBOutlet var jiaduidefen: UILabel!
     var x:Int = 0;
@@ -112,12 +119,12 @@ class ViewController: UIViewController {
     }
     //从SQLite加载数据
     func initUser() {
-        let data = db.query("select * from t_user")
+        let data = db.query("select * from xx_user")
         if data.count > 0 {
             //获取最后一行数据显示
             let user = data[data.count - 1]
-            jiaduidefen.text = user["uname"] as? String
-            yiduidefen.text = user["mobile"] as? String
+            jia.text = user["jia"] as? String
+            yi.text = user["yi"] as? String
         }
     }
     //保存数据到SQLite
