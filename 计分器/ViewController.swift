@@ -11,14 +11,17 @@ class ViewController: UIViewController {
     //参赛队伍
     
     @IBOutlet var jia: UILabel!
-    
     @IBOutlet var yi: UILabel!
-    //倒计时00：00
+    //倒计时12：00
     var time :NSTimer!
     var _tame:Int = 720
     var stop :NSTimer!
     @IBOutlet var timel: UILabel!
     
+    //倒计时24s
+    var time1 :NSTimer!
+    var _tame1:Int = 24
+    @IBOutlet var shijian: UILabel!
     
     //甲队得分
     @IBOutlet var jiaduidefen: UILabel!
@@ -42,8 +45,6 @@ class ViewController: UIViewController {
         saveUser(z)
         jiaduidefen.text = "\(x)";
     }
-
- 
     @IBOutlet var yiduidefen: UILabel!
     var y:Int = 0;
     @IBAction func yidui1(sender: UIButton) {
@@ -91,10 +92,20 @@ class ViewController: UIViewController {
     }
     
     
-    
-    
-    
-    
+    //倒计时24s按钮
+    @IBAction func star1(sender: AnyObject) {
+        time1 = NSTimer.scheduledTimerWithTimeInterval(1, target:self,selector: Selector("tickDOWn1"),userInfo: nil,repeats: true)
+    }
+    func tickDOWn1()
+    {
+        _tame1 -= 1
+        let sec = _tame1%60
+        shijian.text = "00:"+String(sec)
+        if(_tame1 == 0){
+            _tame1 = 24
+            tickDOWn1()
+        }
+    }
     
     var db:SQLiteDB!
     

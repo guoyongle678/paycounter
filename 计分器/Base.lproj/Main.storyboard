@@ -8,7 +8,6 @@
         <!--View Controller-->
         <scene sceneID="dgx-iC-w5K">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="MB2-yY-3LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Q86-Fu-TGx" customClass="ViewController" customModule="计分器" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gxz-sK-Mlv">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
@@ -183,6 +182,9 @@
                                 <rect key="frame" x="213" y="93" width="45" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="倒计时"/>
+                                <connections>
+                                    <action selector="star1:" destination="Q86-Fu-TGx" eventType="touchUpInside" id="XrN-hK-J4A"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hmf-E7-Lbg">
                                 <rect key="frame" x="244" y="147" width="60" height="21"/>
@@ -197,11 +199,13 @@
                     <connections>
                         <outlet property="jia" destination="83H-d9-a08" id="RZS-rl-ISP"/>
                         <outlet property="jiaduidefen" destination="jSw-FT-xkK" id="dHh-Iw-28z"/>
+                        <outlet property="shijian" destination="lFk-No-lL2" id="TzS-ha-EJD"/>
                         <outlet property="timel" destination="UH6-Xe-HLi" id="e13-RL-xw3"/>
                         <outlet property="yi" destination="Hmf-E7-Lbg" id="uqb-ch-ASp"/>
                         <outlet property="yiduidefen" destination="hIw-jN-qbf" id="4kA-cP-Xbj"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MB2-yY-3LP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-230" y="70"/>
         </scene>
@@ -255,7 +259,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yTt-Ws-uS4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="167" y="70"/>
+            <point key="canvasLocation" x="127" y="70"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Kgg-Ra-TqZ">
@@ -472,21 +476,21 @@
                                     <segue destination="duo-yi-4PF" kind="modal" id="icv-iF-Vnz"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A4e-EA-d1f">
+                                <rect key="frame" x="137" y="518" width="90" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="保存球队信息"/>
+                                <connections>
+                                    <action selector="bc:" destination="yoA-5x-CHV" eventType="touchUpInside" id="h35-AK-UZe"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULc-he-1XL">
-                                <rect key="frame" x="165" y="41" width="101" height="30"/>
+                                <rect key="frame" x="170" y="43" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A4e-EA-d1f">
-                                <rect key="frame" x="159" y="518" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="bc:" destination="yoA-5x-CHV" eventType="touchUpInside" id="h35-AK-UZe"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

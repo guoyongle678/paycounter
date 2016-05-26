@@ -13,9 +13,6 @@ class Filexx: UIViewController {
     @IBOutlet var yi: UITextField!
     var db:SQLiteDB!
     
-    // @IBOutlet var txtUname: UITextField!
-    // @IBOutlet var txtMobile: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
