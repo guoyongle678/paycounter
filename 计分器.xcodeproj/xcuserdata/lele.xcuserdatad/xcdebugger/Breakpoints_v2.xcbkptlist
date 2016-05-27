@@ -6,7 +6,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x8ba1;&#x5206;&#x5668;/ViewController.swift"
@@ -17,6 +17,98 @@
             endingLineNumber = "168"
             landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x8ba1;&#x5206;&#x5668;/ViewController.swift"
+            timestampString = "486032130.601237"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.ViewController.__deallocating_deinit"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/ViewController.swift"
+                  timestampString = "486032944.09451"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.ViewController.init (&#x8ba1;&#x5206;&#x5668;.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;&#x8ba1;&#x5206;&#x5668;.ViewController&gt;"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/ViewController.swift"
+                  timestampString = "486032944.094931"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x8ba1;&#x5206;&#x5668;/ViewController.swift"
+            timestampString = "486032131.928853"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "6"
+            endingLineNumber = "6">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.ViewController.__deallocating_deinit"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/ViewController.swift"
+                  timestampString = "486032944.117308"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.ViewController.init (&#x8ba1;&#x5206;&#x5668;.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; &#x8ba1;&#x5206;&#x5668;.ViewController"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/ViewController.swift"
+                  timestampString = "486032944.117655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
