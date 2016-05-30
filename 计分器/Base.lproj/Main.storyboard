@@ -13,10 +13,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" id="ObJ-JT-bLK">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="F3O-1o-jaK">
                                 <rect key="frame" x="88" y="30" width="148" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -79,7 +75,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="83H-d9-a08">
-                                <rect key="frame" x="29" y="138" width="58" height="21"/>
+                                <rect key="frame" x="39" y="138" width="58" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.25459784699999999" green="1" blue="0.93003769729999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -177,7 +173,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Hmf-E7-Lbg">
-                                <rect key="frame" x="244" y="147" width="60" height="21"/>
+                                <rect key="frame" x="255" y="147" width="60" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -203,6 +199,10 @@
                                     <segue destination="lsv-od-ADI" kind="modal" id="fh4-MN-CO0"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3.jpg" id="ObJ-JT-bLK">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -235,14 +235,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="甲队" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="anX-TC-o4x">
-                                <rect key="frame" x="116" y="55" width="60" height="21"/>
+                                <rect key="frame" x="103" y="55" width="73" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="乙队" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ry6-1K-Pzn">
-                                <rect key="frame" x="235" y="55" width="34" height="21"/>
+                                <rect key="frame" x="218" y="55" width="72" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -390,12 +390,22 @@
                     </view>
                     <connections>
                         <outlet property="jia" destination="anX-TC-o4x" id="dUg-5p-dkg"/>
+                        <outlet property="jia1" destination="fdA-lX-eWt" id="9Cv-a2-Z7X"/>
+                        <outlet property="jia2" destination="jaA-hB-W18" id="22U-dN-bJD"/>
+                        <outlet property="jia3" destination="2h3-K2-rnF" id="Yv3-rq-1U6"/>
+                        <outlet property="jia4" destination="Orq-xF-JMG" id="RZx-mA-nFW"/>
+                        <outlet property="jiazong" destination="Qf4-Lv-1pb" id="7f6-5o-UgE"/>
                         <outlet property="yi" destination="ry6-1K-Pzn" id="FSF-TW-VPv"/>
+                        <outlet property="yi1" destination="POD-Sa-lW3" id="SGD-Ha-LiU"/>
+                        <outlet property="yi2" destination="5WF-er-suk" id="d2w-iQ-VX7"/>
+                        <outlet property="yi3" destination="rm1-7p-zng" id="acT-1I-MTO"/>
+                        <outlet property="yi4" destination="dGa-4P-Klp" id="IzH-Ow-51M"/>
+                        <outlet property="yizong" destination="mhE-Qy-JiI" id="pdq-de-3lL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORG-7v-chL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="185" y="70"/>
+            <point key="canvasLocation" x="146" y="70"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Pc5-Sy-Vt9">
@@ -415,7 +425,7 @@
                                 <color key="tintColor" red="0.039447036820000003" green="0.16691779919999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="  &lt;返回 "/>
                                 <connections>
-                                    <segue destination="yoA-5x-CHV" kind="modal" id="J6V-Rl-Ytn"/>
+                                    <segue destination="Hgk-4b-Gtt" kind="modal" id="czW-XL-Ywh"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="7.jpg" id="nmg-QB-kCK">
@@ -503,6 +513,16 @@
                                 </state>
                                 <connections>
                                     <segue destination="Q86-Fu-TGx" kind="modal" id="p72-rJ-F2E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="euG-HD-2D6">
+                                <rect key="frame" x="166" y="508" width="91" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="比赛规则"/>
+                                <connections>
+                                    <segue destination="duo-yi-4PF" kind="modal" id="icv-iF-Vnz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -721,26 +741,6 @@
                                     <segue destination="Hgk-4b-Gtt" kind="modal" id="KXb-A8-0UL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="euG-HD-2D6">
-                                <rect key="frame" x="226" y="468" width="91" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="比赛规则"/>
-                                <connections>
-                                    <segue destination="duo-yi-4PF" kind="modal" id="icv-iF-Vnz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A4e-EA-d1f">
-                                <rect key="frame" x="137" y="518" width="90" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="保存球队信息">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="bc:" destination="yoA-5x-CHV" eventType="touchUpInside" id="h35-AK-UZe"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="球队信息" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULc-he-1XL">
                                 <rect key="frame" x="170" y="43" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -748,6 +748,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="A4e-EA-d1f">
+                                <rect key="frame" x="192" y="468" width="128" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="保存球队信息">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="bc:" destination="yoA-5x-CHV" eventType="touchUpInside" id="h35-AK-UZe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -775,7 +786,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="8ah-Uc-c4g"/>
-        <segue reference="tCo-QK-emV"/>
-        <segue reference="J6V-Rl-Ytn"/>
+        <segue reference="KXb-A8-0UL"/>
     </inferredMetricsTieBreakers>
 </document>

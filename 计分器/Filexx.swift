@@ -24,7 +24,7 @@ class Filexx: UIViewController {
         //initUser()
     }
     
-    //点击保存
+    //点击保存球队信息
     @IBAction func bc(sender: AnyObject) {
         saveUser()
     }

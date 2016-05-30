@@ -12,12 +12,29 @@ class Filebf: UIViewController {
 
     @IBOutlet var jia: UILabel!
     @IBOutlet var yi: UILabel!
+    @IBOutlet var jia1: UILabel!
+    
+    @IBOutlet var jia2: UILabel!
+    
+    @IBOutlet var jia3: UILabel!
+    
+    @IBOutlet var jia4: UILabel!
+    
+    @IBOutlet var jiazong: UILabel!
+    
+    
+    @IBOutlet var yi1: UILabel!
+    
+    @IBOutlet var yi2: UILabel!
+    
+    @IBOutlet var yi3: UILabel!
+    
+    @IBOutlet var yi4: UILabel!
+    
+    @IBOutlet var yizong: UILabel!
     
     
     var db:SQLiteDB!
-    
-    // @IBOutlet var txtUname: UITextField!
-    // @IBOutlet var txtMobile: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,11 +47,6 @@ class Filebf: UIViewController {
         //如果有数据则加载
         initUser()
     }
-    
-    //点击保存
-    @IBAction func bc(sender: AnyObject) {
-        //saveUser()
-    }
     //从SQLite加载数据
     func initUser() {
         let data = db.query("select * from xx_user")
@@ -43,8 +55,10 @@ class Filebf: UIViewController {
             let user = data[data.count - 1]
             jia.text = user["jia"] as? String
             yi.text = user["yi"] as? String
+
         }
     }
+    
     //保存数据到SQLite
     func saveQiudui(x:Int) {
         // let uname = self.jiaduidefen.text!

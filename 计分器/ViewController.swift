@@ -9,7 +9,6 @@
 import UIKit
 class ViewController: UIViewController {
     //参赛队伍
-    
     @IBOutlet var jia: UILabel!
     @IBOutlet var yi: UILabel!
     //倒计时12：00
@@ -107,10 +106,26 @@ class ViewController: UIViewController {
         }
     }
     
-    var db:SQLiteDB!
+    @IBAction func bifenbaocun(sender: AnyObject) {
+     //saveUser()
+    }
     
-   // @IBOutlet var txtUname: UITextField!
-   // @IBOutlet var txtMobile: UITextField!
+    @IBOutlet var jiadefen: UILabel!
+    
+    @IBOutlet var yidefen: UILabel!
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    var db:SQLiteDB!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

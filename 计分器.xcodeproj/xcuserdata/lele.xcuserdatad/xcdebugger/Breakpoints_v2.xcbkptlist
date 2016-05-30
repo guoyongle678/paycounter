@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x8ba1;&#x5206;&#x5668;/ViewController.swift"
-            timestampString = "485962420.148652"
+            timestampString = "486302560.180488"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "didReceiveMemoryWarning()"
             landmarkType = "5">
          </BreakpointContent>
@@ -107,6 +107,84 @@
                   startingLineNumber = "0"
                   endingLineNumber = "0"
                   offsetFromSymbolStart = "57">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x8ba1;&#x5206;&#x5668;/Filexx.swift"
+            timestampString = "486301667.35125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Filexx"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.Filexx.db.setter : Swift.ImplicitlyUnwrappedOptional&lt;&#x8ba1;&#x5206;&#x5668;.SQLiteDB&gt;"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/Filexx.swift"
+                  timestampString = "486302561.19057"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.Filexx.db.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;&#x8ba1;&#x5206;&#x5668;.SQLiteDB&gt;"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/Filexx.swift"
+                  timestampString = "486302561.190723"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.Filexx.init (&#x8ba1;&#x5206;&#x5668;.Filexx.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; &#x8ba1;&#x5206;&#x5668;.Filexx"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/Filexx.swift"
+                  timestampString = "486302561.190877"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "115">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8ba1;&#x5206;&#x5668;.Filexx.init (&#x8ba1;&#x5206;&#x5668;.Filexx.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;&#x8ba1;&#x5206;&#x5668;.Filexx&gt;"
+                  moduleName = "&#x8ba1;&#x5206;&#x5668;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lele/Desktop/%E8%AE%A1%E5%88%86%E5%99%A8%20/%E8%AE%A1%E5%88%86%E5%99%A8/%E8%AE%A1%E5%88%86%E5%99%A8/Filexx.swift"
+                  timestampString = "486302561.191052"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "74">
                </Location>
             </Locations>
          </BreakpointContent>
