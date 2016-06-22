@@ -106,10 +106,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func bifenbaocun(sender: AnyObject) {
-     //saveUser()
-    }
-    
     
     var db:SQLiteDB!
 
